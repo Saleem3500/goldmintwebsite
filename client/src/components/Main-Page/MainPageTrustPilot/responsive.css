@@ -1,0 +1,21 @@
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:787px) {}
+
+@media screen and (max-width:576px) {
+    .trust-pilot-sections {
+        flex-direction: column;
+    }
+    .trust-pilot-section{
+        width: 100%;
+    }
+    .trust-pilot-section-2{
+        width: 100%;
+        margin: 3% 0;
+    }
+    .trust-pilot-section-2 img{
+        height: 250px;
+    }
+}

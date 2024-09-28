@@ -1,0 +1,210 @@
+.admin-portal {
+    padding-top: 4%;
+    background-color: #e2e2e2;
+}
+
+.admin-portal>h1 {
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1%;
+}
+
+.admin-portal-form form {
+    width: 50%;
+    margin: auto;
+    background-color: #000;
+    padding: 2%;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.admin-portal-form form input,
+.admin-portal-form textarea,
+.admin-portal-form select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 2px solid #000;
+    outline: none;
+    color: #000;
+}
+
+.admin-portal-form input[type="file"] {
+    border: none;
+}
+
+.admin-portal-form input[type="checkbox"] {
+    width: 20px;
+    color: #fff;
+}
+
+.admin-portal-form button {
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.admin-portal-form button:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.admin-portal-form h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.admin-form-submit-btn {
+    text-align: center;
+}
+
+.admin-portal-form ul {
+    padding: 0 50px;
+}
+
+.admin-portal-form li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 0;
+    border: 2px dotted rgba(0, 0, 0, 0.5);
+    padding: 1%;
+    border-radius: 8px;
+}
+
+.admin-portal-form li:last-child {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.admin-portal-form li h4 {
+    font-weight: 500;
+    text-transform: capitalize;
+    word-break: break-all;
+}
+
+.list-item {
+    width: 15%;
+    text-align: center;
+}
+
+.list-item:last-child {
+    display: flex;
+    gap: 10px;
+}
+
+.order-list {
+    padding: 0;
+    margin: 20px 0;
+}
+
+.order-list li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    /* White background for orders */
+}
+
+.order-list h3 {
+    margin: 0;
+    color: #000;
+    /* Darker text for headings */
+}
+
+.order-list p {
+    margin: 5px 0;
+}
+
+.sell-page-orders {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sell-page-orders .order-card, .order-wrapper li{
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 2%;
+    border: 1px dotted #000;
+}
+
+.sell-page-orders .order-card h3 {
+    margin: 0;
+    color: #000;
+    /* Darker text for headings */
+}
+
+.sell-page-orders .order-card p {
+    margin: 5px 0;
+}
+
+.images img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.admin-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 2%;
+}
+
+.admin-buttons button {
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.admin-buttons button:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+
+.admin-portal-form h2 {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    padding: 3% 0;
+}
+
+.sell-order-wrapper h2, .order-wrapper h2{
+    text-align: center;
+    font-weight: 500;
+    padding: 2% 0;
+}
+.sell-page-orders, .order-wrapper ul{
+    width: 90%;
+    margin: auto;
+}
+.order-wrapper ul{
+    list-style-type: none;
+}
+
+.order-wrapper p{
+    margin-bottom: 0;
+}

@@ -1,0 +1,63 @@
+.sell-sec-8 {
+    background-color: #000;
+    color: #fff;
+}
+
+.sell-sec-8-container {
+    width: 80%;
+    margin: auto;
+    padding: 4% 0;
+    text-align: center;
+}
+
+.sell-sec-8 h2 {
+    font-size: 2.2rem;
+}
+
+.sell-sec-8 p {
+    font-size: 1.4rem;
+    padding: 2% 0;
+}
+
+.sell-sec-8-buy,
+.sell-sec-8-dont-buy {
+    padding: 2% 0;
+}
+
+.sell-sec-8-buy h2,
+.sell-sec-8-dont-buy h2 {
+    font-size: 2rem;
+}
+
+
+.sell-sec-8-items {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 2% 0;
+}
+
+.sell-sec-8-item {
+    width: 15%;
+    height: 150px;
+    padding: 2%;
+    border-left: 1px solid rgba(255, 217, 0, 0.415);
+    border-right: 1px solid rgba(255, 217, 0, 0.415);
+    border-radius: 10px;
+
+}
+
+.sell-sec-8-item:first-child {
+    border-left: none;
+}
+
+.sell-sec-8-item:last-child {
+    border-right: none;
+}
+
+
+.sell-sec-8-item svg {
+    font-size: 2.2rem;
+    color: rgba(255, 217, 0, 0.842);
+    padding-bottom: 2%;
+}

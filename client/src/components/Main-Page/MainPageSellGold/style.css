@@ -1,0 +1,112 @@
+.mp-selling-gold {
+    background: #2e2d31 url("../../../assets/sell-gold-bg-shine.webp") no-repeat top center;
+    background-size: 100% 100%;
+    padding: 4% 0;
+}
+
+.selling-gold-main {
+    width: 90%;
+    margin: auto;
+    padding: 4% 0;
+}
+
+.selling-gold-left {
+    width: 50%;
+    padding: 4%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selling-gold-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.selling-gold-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding-right: 10%;
+}
+
+.selling-gold-right span {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.selling-gold-right h1 {
+    font-size: 2rem;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    padding: 1.5% 0;
+}
+
+.selling-gold-right ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 4;
+}
+
+.selling-gold-right li::before {
+    content: "★ ";
+    margin-right: 5px;
+    color: #caa969;
+}
+
+.selling-gold-right a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.selling-gold-right li {
+    border-top: 1px solid #caa969;
+}
+
+.selling-gold-right li:last-child {
+    border-bottom: 1px solid #caa969;
+}
+
+.mp-selling-cards {
+    width: 90%;
+    margin: auto;
+    padding: 0 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mp-selling-card {
+    width: 33%;
+    line-height: 2;
+    text-align: center;
+}
+
+.mp-selling-card h2 {
+    display: inline-block;
+    font-size: 4.5rem;
+    font-weight: 600;
+    background-image: url("../../../assets/gold-text-bg.png");
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mp-selling-card p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.mp-sell-gold-bg {
+    background-image: url("../../../assets/sell-gold-bottom.png");
+    background-size: cover;
+    height: 90px;
+    background-color: #000;
+}

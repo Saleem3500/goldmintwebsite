@@ -1,0 +1,81 @@
+.refinary-banner {
+    background-image: url("../../assets/refinary/gold-refinery.jpg");
+    background-color: rgba(225, 225, 225, 0.5);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.refinary-banner h1 {
+    padding-left: 15%;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10%;
+}
+
+.refinary-content-wrapper {
+    background-image: url("../../assets/refinary/refinary-content-bg.png");
+    background-size: cover;
+}
+
+.refinary-content {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+.refinary-content-top {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.refinary-content-bottom {
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.refinary-content-1,
+.refinary-content-2 {
+    display: flex;
+}
+
+.refinary-content-1-left, .refinary-content-2-right {
+    width: 30%;
+}
+
+.refinary-content-1-left img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+
+.refinary-content-1-right, .refinary-content-2-left{
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.refinary-content-1-right h2, .refinary-content-2-left h2 {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.refinary-content-2-right img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    margin-right: -4%;
+}
+.refinary-content-2-left h5{
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width: 991px) {
+    .buy-page-wrapper {
+        padding: 130px 0 5%;
+    }
+    .buyPageBanner h1 {
+        font-size: 3rem;
+    }  
+}
+
+@media screen and (max-width: 787px) {
+    .buyPageBanner {
+        width: 80%;
+    }
+    .buyPageBanner h1 {
+        font-size: 2.7rem;
+    }  
+}
+
+@media screen and (max-width: 576px) {
+    .buy-page-wrapper {
+        padding: 100px 0 5%;
+    }
+    .buyPageBanner {
+        width: 100%;
+        padding: 0 12px;
+    }
+    .buyPageBanner h1 {
+        font-size: 2.2rem;
+    }  
+    .buyPageBanner p{
+        font-size: 0.9rem;
+    }
+}

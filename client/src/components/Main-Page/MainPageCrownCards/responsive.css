@@ -1,0 +1,56 @@
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:787px) {}
+
+@media screen and (max-width:576px) {
+    .carousel-container>h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .card-body {
+        flex-direction: column;
+    }
+
+    .crown-image {
+        width: 100%;
+    }
+
+    .crown-image img {
+        height: 100px;
+    }
+
+    .crown-content {
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .carousel-controls button {
+        height: 34px;
+        width: 34px;
+    }
+
+    .carousel-controls svg {
+        height: 12px;
+    }
+
+    .carousel-controls {
+        top: 90px;
+        right: 15px;
+    }
+
+    .crown-content {
+        text-align: center;
+    }
+    .crown-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .crown-content p {
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+    .crown-card-points h4 {
+        font-size: 1.2rem;
+    }
+}

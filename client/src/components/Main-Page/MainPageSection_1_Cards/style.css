@@ -1,0 +1,152 @@
+#sec-1-cards-main {
+    background-image: url("../../../assets/gold-background.webp");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    /* background-color: #2D2C30;
+    background-color: #000; */
+    padding-bottom: 2%;
+}
+
+#sec-1-cards-main h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 3%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec-1-cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 4% 0 7%;
+    justify-content: space-between;
+}
+
+.sec-1-card {
+    display: flex;
+    color: #fff;
+    border-right: 2px solid rgb(255, 166, 77);
+    width: 31%;
+}
+
+.sec-1-card:last-child {
+    border-right: none;
+}
+
+.sec-1-icon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(255, 166, 77);
+}
+
+.sec-1-card-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3%;
+}
+
+.sec-1-card-content h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+    letter-spacing: 1px;
+}
+
+/* MainPageVideo.css */
+.video-container{
+    width: 90%;
+    margin: auto;
+    /* padding-bottom: 4%; */
+    /* overflow: hidden; */
+    border-radius: 20px;
+}
+.video-container video{
+    height: 100%;
+    /* border-radius: 20px; */
+    width: 100%;
+    border-radius: 20px;
+}
+@media screen and (max-width:991px) {
+    .sec-1-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sec-1-card {
+        width: 48%;
+    }
+
+    .sec-1-card:nth-child(2) {
+        border-right: none;
+    }
+
+    .sec-1-card:last-child {
+        margin-top: 3%;
+    }
+
+    .sec-1-icon {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:787px) {
+    .sec-1-cards {
+        padding: 6% 0;
+    }
+
+    .sec-1-card {
+        width: 100%;
+    }
+
+    .sec-1-card:first-child {
+        border-right: none;
+    }
+
+    .sec-1-card-content h3 {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .sec-1-card-content p {
+        font-size: 0.9rem;
+    }
+
+    .sec-1-icon {
+        font-size: 1.7rem;
+    }
+
+    .sec-1-card:nth-child(2) {
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .sec-1-card-content h3 {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .sec-1-card-content p {
+        font-size: 0.8rem;
+    }
+
+    .sec-1-icon {
+        font-size: 1.4rem;
+    }
+
+    #sec-1-cards-main h2 {
+        font-size: 1.5rem;
+    }
+}

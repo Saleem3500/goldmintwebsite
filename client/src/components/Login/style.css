@@ -1,0 +1,49 @@
+.authentication-form{
+    padding: 15% 0 5%;
+}
+.authentication-form form{
+    width: 50%;
+    margin: auto;
+    background-color: #000;
+    padding: 4%;
+    border-radius: 12px;
+    color: #fff;
+}
+.authentication-form input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 2px solid #000;
+    outline: none;
+    color: #000;
+}
+.authentication-form button {
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.authentication-form button:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+.authentic-submit-btn{
+    text-align: center;
+}
+.authentication-form h1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3%;
+    text-align: center;
+}

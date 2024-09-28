@@ -1,0 +1,49 @@
+.sell-sec-5-main {
+    background-image: url("../../../assets/sell-gold-bg-shine.webp");
+    color: #fff;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sell-section-5 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+
+.sell-sec-5-main h2 {
+    font-size: 2.3rem;
+    padding-bottom: 1%;
+}
+
+.sell-sec-5-main p {
+    font-size: 1.2em;
+}
+
+.sell-sec-5-features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell-sec-5-feature {
+    width: 24%;
+    padding: 3% 0;
+    border-top: 1px solid rgba(225, 225, 225, 0.3);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+}
+
+.sell-sec-5-icon {
+    font-size: 2.3rem;
+    color: #9e8224;
+    padding:30px 0;
+}
+
+.sell-sec-5-feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sell-sec-5-feature p {
+    font-size: 1rem;
+}

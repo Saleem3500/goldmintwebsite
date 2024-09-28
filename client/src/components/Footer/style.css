@@ -1,0 +1,163 @@
+.footer-main {
+    background-color: #000000;
+    padding: 3% 0;
+    color: #fff;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+}
+
+.footer-logo {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 90px;
+    object-fit: contain;
+}
+
+.footer-sec-2 {
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(225, 225, 225, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-items {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    width: 23%;
+}
+
+.footer-item h3 {
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.footer-visit-us {
+    width: 30%;
+}
+
+.footer-visit-us h3 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.visit-us {
+    line-height: 2;
+}
+
+.footer-item a {
+    display: block;
+    padding: 10px 0;
+    color: #dc9a01;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+.footer-recognition {
+    border-top: 1px solid rgba(225, 255, 255, 0.3);
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-recoginition-content {
+    width: 50%;
+}
+
+.recog-2-img {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-follow-us {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-follow-us a {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.footer-follow-us a:hover {
+    color: #fff;
+}
+
+.feedback-sec-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(225, 225, 225, 0.3);
+}
+
+.feedback-sec-3 h3 {
+    font-weight: bold;
+}
+
+.footer-proud-members {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.footer-feedback {
+    width: 31%;
+}
+.footer-feedback img{
+    height: 50px;
+    width: 100%;
+    object-fit: contain;
+}
+.footer-feedback:nth-child(2) {
+    text-align: center;
+}
+
+.Footer-members {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-bottom {
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.footer-bottom a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

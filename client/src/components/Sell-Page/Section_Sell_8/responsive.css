@@ -1,0 +1,39 @@
+@media screen and (max-width:991px) {
+    .sell-sec-8 p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:787px) {
+    .sell-sec-8-items {
+        flex-wrap: wrap;
+    }
+    .sell-sec-8-item {
+        width: 30%;
+        border: none;
+        border-bottom: 1px solid rgba(255, 217, 0, 0.415);
+        padding-top: 4%;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .sell-sec-8-container {
+        width: 95%;
+    }
+    .sell-sec-8 h2 {
+        font-size: 1.4rem;
+        padding: 4% 0;
+    }
+
+    .sell-sec-8 p {
+        font-size: 0.9rem;
+    }
+
+    .sell-sec-8-item {
+        width: 40%;
+        padding: 1%;
+        height: 100px;
+    }
+
+}

@@ -1,0 +1,53 @@
+@media screen and (max-width:991px) {
+    .sec-3-gold-content h2 {
+        font-size: 2rem;
+    }
+
+    .sec-3-gold-content {
+        width: 70%;
+    }
+    .sec-3-sell-cards{
+        flex-wrap: wrap;
+    }
+    .sec-3-sell-card {
+        padding: 5% 0;
+        width: 48%;
+    }
+    .sec-3-sell-card-img {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:787px) {
+    .sec-3-gold-content {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .sec-3-gold-content {
+        width: 100%;
+        text-align: left;
+        padding: 5% 0;
+    }
+
+    .sec-3-gold-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .sec-3-gold-content p {
+        font-size: 0.9rem;
+    }
+
+    .sec-3-sell-card {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .sec-3-sell-card img {
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 991px) {
+    .accordion-container h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .accordion-container {
+        max-width: 80%;
+    }
+
+    .accordion-container h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .accordion-container {
+        max-width: 95%;
+    }
+
+    .accordion-container h1 {
+        font-size: 2rem;
+    }
+}

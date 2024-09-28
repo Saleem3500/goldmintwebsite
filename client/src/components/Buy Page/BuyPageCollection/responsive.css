@@ -1,0 +1,44 @@
+@media screen and (max-width: 991px) {
+    .buyCollectionMain {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .filters {
+        width: 90%;
+        margin: auto;
+        height: calc(60vh - 60px);
+        border-radius: 12px;
+        padding: 5% 2%;
+    }
+
+    .allProducts {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .product {
+        width: 48%;
+    }
+
+    .productImage {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .buyCollectionMain {
+        width: 100%;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .productImage {
+        height: 140px;
+    }
+}

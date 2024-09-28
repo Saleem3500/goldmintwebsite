@@ -1,0 +1,45 @@
+.trust-pilot-main{
+    background-color: #000;
+    color: #fff;
+}
+.trust-pilot-top{
+    text-align: center;
+    line-height: 2;
+    padding: 4% 0;
+}
+.trust-pilot-top img{
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 1%;
+}
+.trust-pilot-top h1, h4{
+    font-weight: bold;
+}
+.trust-pilot-sections{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.trust-pilot-section{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.trust-pilot-card h2{
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.trust-pilot-section-2{
+    width: 30%;
+    /* filter: drop-shadow(0px 0px 4px #fff); */
+}
+.trust-pilot-section-2 img{
+    height: 550px;
+    width: 100%;
+    object-fit: contain;
+}

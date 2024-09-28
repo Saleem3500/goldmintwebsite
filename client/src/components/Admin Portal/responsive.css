@@ -1,0 +1,63 @@
+@media screen and (max-width: 1200px){
+    .list-item {
+        width: 100%;
+    }
+
+    .list-item:last-child {
+        justify-content: center;
+        margin-top: 4%;
+    }
+
+    .list-item:last-child button:first-child {
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .admin-portal-form {
+        padding: 120px 0 5%;
+    }
+
+    .admin-portal-form h1 {
+        font-size: 2.3rem;
+    }
+
+    .admin-portal-form form {
+        width: 70%;
+    }
+
+    .admin-portal-form li {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .admin-portal-form h1 {
+        font-size: 2.2rem;
+    }
+
+    .admin-portal-form form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .admin-portal-form h1 {
+        font-size: 2rem;
+    }
+
+    .admin-portal-form form {
+        width: 95%;
+    }
+
+    .admin-portal-form input,
+    .admin-portal-form select,
+    .admin-portal-form option {
+        font-size: 0.9rem;
+    }
+
+    .admin-portal-form button {
+        font-size: 0.9rem;
+    }
+}

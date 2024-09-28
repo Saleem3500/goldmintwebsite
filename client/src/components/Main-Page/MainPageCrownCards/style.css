@@ -1,0 +1,88 @@
+/* style.css */
+.carousel-container {
+    position: relative;
+    padding: 200px 0;
+}
+.crown-main-wrapper{
+    background-color: #000;
+    border-bottom: 2px solid rgba(225, 225, 225, 0.5);
+}
+.carousel-controls {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.carousel-controls button {
+    border: none;
+    outline: none;
+    background-color: #caa969;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: all .4s ease-in-out;
+}
+.carousel-controls button:hover{
+    background-color: #757575;
+    color: #000;
+}
+.carousel-container button:focus{ 
+    background-color: #caa969;
+    color: #fff;
+    transform: scale(0.9);
+}
+.carousel-controls svg{
+    height: 18px;
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.crown-image {
+    position: relative;
+    width: 30%;
+}
+
+.crown-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px);
+}
+
+.crown-card-points h4 {
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+.crown-card-points span {
+    font-weight: bold;
+}
+
+.crown-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    width: 60%;
+}
+
+.crown-content h2{
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+.carousel-container>h2{
+    font-size: 2.3rem;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,61 @@
+@media screen and (max-width:991px) {
+    .sell-sec-gold-content h2 {
+        font-size: 3rem;
+    }
+    .sell-sec-gold-content p {
+        font-size: 1.3rem;
+    }
+    .sell-sec-gold-content button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:787px) {
+    .sell-gold-bg {
+        height: 160px;
+    }
+    .sell-sec-gold {
+        flex-direction: column-reverse;
+    }
+    
+    .sell-sec-gold-content {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    .sell-sec-gold-img {
+        width: 100%;
+        margin: 4% 0;
+    }
+    .sell-sec-gold-content h2 {
+        font-size: 2.7rem;
+    }
+    .sell-sec-gold-content p {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .sell-gold-bg {
+        height: 130px;
+    }
+    .sell-sec-gold-content h2 {
+        font-size: 2.5rem;
+    }
+    .sell-sec-gold-content p {
+        font-size: 1rem;
+    }
+    .sell-sec-gold-content button {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .sell-gold-bg {
+        height: 100px;
+    }
+}

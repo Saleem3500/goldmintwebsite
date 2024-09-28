@@ -1,0 +1,40 @@
+.about-us-banner{
+    background-image: url("../../assets/aboutus/banner.webp");
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode:multiply;
+} 
+.about-us-banner h1{
+    color: #fff;
+    padding-top: 5%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.about-us-content-wrapper{
+    background-image: url("../../assets/sell-gold-bg-shine.webp");
+    background-size: cover;
+}
+.about-us-content{
+    width: 80%;
+    margin: auto;
+    padding: 4% 0;
+    line-height: 2;
+    color: #fff;
+}
+.about-us-content h2{
+    padding-bottom: 1%;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+}
+.about-us-content p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}

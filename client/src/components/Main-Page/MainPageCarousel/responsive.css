@@ -1,0 +1,22 @@
+@media screen and (max-width:991px) {
+    .carousel-title h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:787px) {
+    .carousel-title h1 {
+        font-size: 4rem;
+    }
+
+    .carousel-content {
+        top: 50%;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .carousel-title h1 {
+        font-size: 2rem;
+    }
+}

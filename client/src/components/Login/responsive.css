@@ -1,0 +1,35 @@
+@media screen and (max-width: 991px) {
+    .authentication-form{
+        padding: 120px 0 5%;
+    }
+    .authentication-form h1 {
+        font-size: 2.3rem;
+    }
+    .authentication-form form{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 787px) {
+    .authentication-form h1 {
+        font-size: 2.2rem;
+    }
+    .authentication-form form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .authentication-form h1 {
+        font-size: 2rem;
+    }
+    .authentication-form form{
+        width: 95%;
+    }
+    .authentication-form input {
+        font-size: 0.9rem;
+    }
+    .authentication-form button {
+        font-size: 0.9rem;
+    }
+}

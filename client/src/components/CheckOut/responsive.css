@@ -1,0 +1,49 @@
+@media screen and (max-width:991px) {
+    .checkoutWrapper {
+        padding: 130px 2% 5%;
+    }
+    .checkoutWrapper form {
+        width: 60%;
+    }
+    .dataFormWrapper{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:787px) {
+    .checkoutWrapper form {
+        width: 80%;
+    }
+    .checkoutWrapper h1 {
+        font-size: 2.2rem;
+    }
+    .dataFormWrapper{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .checkoutWrapper form {
+        width: 95%;
+        padding: 4%;
+    }
+    .checkoutWrapper h1 {
+        font-size: 1.8rem;
+    }
+    .checkoutWrapper button {
+        font-size: 0.9rem;
+    }
+    label{
+        font-size: 0.9rem;
+    }
+    input{
+        font-size: 0.9rem;
+    }
+    .checkoutCartItem {
+        width: 95%;
+        padding: 2%;
+    }
+    .dataFormWrapper{
+        width: 95%;
+    }
+}

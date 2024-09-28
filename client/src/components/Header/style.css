@@ -1,0 +1,171 @@
+.logo-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.nav-logo {
+    object-fit: contain;
+    height: 70px;
+    width: 100%;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Navbar styling */
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.2rem;
+    background: linear-gradient(48deg, rgba(0, 0, 0, 1) 26%, rgba(255, 202, 47, 1) 100%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0.5rem 1rem;
+}
+
+/* Ensure logo and toggle button are aligned */
+.navbar-brand,
+.navbar-toggler {
+    display: flex;
+    align-items: center;
+}
+
+/* Fix for iPhone screen layout issues */
+@media (max-width: 576px) {
+    .navbar-brand {
+        flex-grow: 1;
+        justify-content: flex-start;
+    }
+
+    .navbar-toggler {
+        justify-content: flex-end;
+    }
+
+    .nav-logo {
+        height: 40px;
+        width: auto;
+    }
+
+    .navbar-collapse {
+        /* text-align: center; */
+    }
+}
+
+/* Handle admin-cart layout */
+.admin-cart {
+    display: flex;
+    gap: 15px;
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 992px) {
+    .navbar .dropdown-menu {
+        min-width: 200px;
+    }
+}
+
+.navbar-toggler-icon {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler {
+    padding: 2px;
+    font-size: 1rem;
+    line-height: 0.2;
+    background-color: transparent;
+    border: none;
+}
+
+/* Dropdown hover effect */
+.navbar .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .3s ease, visibility .3s ease;
+}
+
+.navbar .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    background-color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #C0C0C0;
+    color: #000;
+}
+
+.dropdown-item {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Admin cart icon spacing for smaller screens */
+@media (max-width: 991px) {
+    .admin-cart {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-left: 5px;
+    transition: color .3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #C0C0C0;
+}
+
+.navbar .dropdown-item {
+    font-size: 12px;
+    padding: 4px 6px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 576px) {
+    .nav-logo {
+        height: 35px;
+    }
+
+    .navbar {
+        padding: 1.3% 3% 1.4%;
+    }
+
+    .navbar-toggler-icon {
+        width: 1em;
+    }
+
+    .navbar .nav-link,
+    .navbar .dropdown-toggle {
+        font-size: 12px;
+        text-wrap: wrap;
+    }
+}

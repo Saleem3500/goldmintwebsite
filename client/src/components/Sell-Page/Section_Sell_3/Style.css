@@ -1,0 +1,91 @@
+.sec-3-gold-wrapper {
+    background-color: #000;
+}
+
+.sec-3-gold {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sec-3-gold-content {
+    width: 60%;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.sec-3-gold-content h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3%;
+}
+
+.sec-3-gold-content p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.sec-3-sell-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0 5%;
+}
+
+.sec-3-sell-card {
+    /* background-color: #4a4a4a; */
+    border-radius: 10px;
+    width: 20%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.sec-3-sell-card:hover {
+    transform: translateY(-10px);
+}
+
+.sec-3-sell-card::before {
+    content: '';
+    position: absolute;
+    top: -60%;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+    transform: skewY(-30deg);
+    transition: top 0.5s;
+}
+
+.sec-3-sell-card:hover::before {
+    top: 100%;
+}
+
+.sec-3-sell-card-img {
+    height: 300px;
+    overflow: hidden;
+}
+
+.sec-3-sell-card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-title-sec-3-gold {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width:991px) {
+    .cart-wrapper-main {
+        padding: 130px 0 5%;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .cartWrapper {
+        width: 95%;
+    }
+
+    .cartTitle {
+        font-size: 2rem;
+    }
+
+    .cartItemName {
+        font-size: 1.5rem;
+    }
+
+    .cartItemPrice {
+        font-size: 1.1rem;
+    }
+
+    .cartItemQuantity {
+        font-size: 0.9rem;
+    }
+    .totalPrice {
+        font-size: 1.2rem
+    }
+    .clearCartButton {
+        font-size: 0.9rem;
+    }
+    
+    .buyProductButton {
+        font-size:0.9rem;
+    }
+}

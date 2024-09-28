@@ -1,0 +1,55 @@
+.sec-11-accordin {
+    background-image: url("../../../assets/sellpage/accordianbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+
+}
+
+.accordion-container {
+    max-width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    padding: 2% 4%;
+}
+
+.accordian-wrapper {
+    padding: 4% 0;
+    color: white;
+}
+
+.accordion-container h1 {
+    padding: 2% 0;
+    font-size: 6rem;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    color: #fff;
+    padding: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-content {
+    color: #fff;
+    padding: 0 16px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.accordion-content.open {
+    padding: 16px;
+    max-height: 1000px;
+}

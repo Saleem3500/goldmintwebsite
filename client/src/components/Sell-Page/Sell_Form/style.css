@@ -1,0 +1,102 @@
+/* Message styles */
+.success-message {
+    color: green;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Applying conditional classes in JavaScript requires these classes as well */
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
+
+/* Sell Form Container Styles */
+.sell-form-container form {
+    width: 50%;
+    margin: auto;
+    background-color: #000;
+    padding: 2%;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.sell-form-container h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+/* Input field styles */
+.sell-form-container input,
+.sell-form-container textarea,
+.sell-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 2px solid #000;
+    outline: none;
+    background-color: #222; /* Dark background to match form */
+    color: #fff; /* White text to contrast with background */
+    font-size: 1rem;
+}
+
+/* Specific styles for textarea (description) */
+.sell-form-container textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 100px; /* Default height */
+}
+
+/* Button styles */
+.sell-form-container button {
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.sell-form-container button:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+/* Container background */
+.sell-form-container {
+    background-image: url("../../../assets/sell-gold-bg-shine.webp");
+    background-size: cover;
+    padding: 4% 0;
+}
+
+.sell-btn {
+    text-align: center;
+}
+
+/* Dropdown (select) field specific styles */
+.sell-form-container select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('/src/assets/dropdown-arrow.svg'); /* Custom arrow */
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-color: #222;
+    padding-right: 40px; /* Extra padding for custom arrow */
+}

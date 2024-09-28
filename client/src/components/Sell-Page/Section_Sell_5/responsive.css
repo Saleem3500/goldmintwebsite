@@ -1,0 +1,35 @@
+@media screen and (max-width:991px) {
+    .sell-sec-5-main h2 {
+        font-size: 2.1rem;
+    }
+
+    .sell-sec-5-feature h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:787px) {
+    .sell-sec-5-features {
+        flex-wrap: wrap;
+
+    }
+    .sell-sec-5-feature {
+        width: 44%;
+        border-top: none;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .sell-sec-5-main h2 {
+        font-size: 1.7rem;
+    }
+    .sell-sec-5-main p {
+        font-size: 1rem;
+    }
+
+    .sell-sec-5-feature {
+        width: 100%;
+    }
+
+}

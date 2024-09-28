@@ -1,0 +1,42 @@
+@media screen and (max-width:991px){
+    .sell-sec-10-title {
+        font-size: 3rem;
+    }
+    
+    .sell-sec-10-subtitle {
+        font-size: 1.9rem;
+    }
+    
+    .sell-sec-10-text {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:787px){
+    .sell-sec-10-title {
+        font-size: 2.8rem;
+    }
+    
+    .sell-sec-10-subtitle {
+        font-size: 1.7rem;
+    }
+    
+    .sell-sec-10-text {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:576px){
+    .sell-sec-10 {
+        width: 95%;
+    }
+    .sell-sec-10-title {
+        font-size: 2.5rem;
+    }
+    
+    .sell-sec-10-subtitle {
+        font-size: 1.7rem;
+    }
+    
+    .sell-sec-10-text {
+        font-size: 1rem;
+    }
+}

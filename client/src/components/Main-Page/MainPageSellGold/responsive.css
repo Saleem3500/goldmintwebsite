@@ -1,0 +1,52 @@
+@media screen and (max-width:991px){
+    .selling-gold-main {
+        flex-direction: column;
+    }
+    .selling-gold-left{
+        width: 100%;
+    }
+    .selling-gold-right{
+        width: 100%;
+    }
+    .mp-selling-card h2 {
+        font-size: 3rem;
+    }
+    .mp-selling-card p {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:787px){
+    .selling-gold-right h1 {
+        font-size: 1.8rem
+    }
+    .mp-selling-card h2 {
+        font-size: 2rem;
+    }
+    .mp-selling-card p {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:576px){
+    .selling-gold-right h1 {
+        font-size: 1.7rem
+    }
+    .selling-gold-right span {
+        font-size: 1rem;
+    }
+    .selling-gold-right a {
+        font-size: 0.9rem;
+    }
+    .mp-selling-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mp-selling-card{
+        width: 100%;
+    }
+    .mp-selling-card h2 {
+        font-size: 1.5rem;
+    }
+    .mp-selling-card p {
+        font-size: 1rem;
+    }
+}

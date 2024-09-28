@@ -1,0 +1,70 @@
+.sell-9-bg {
+    background-color: #000;
+    background-image: url("../../../assets/sellpage/sell-silver-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* Maintain aspect ratio, fit width */
+    height: 220px;
+}
+
+.sell-sec-9-main {
+    background-image: url('../../../assets/sellpage/silverbg.jpg');
+}
+
+.sell-sec-9 {
+    width: 80%;
+    margin: auto;
+    padding: 8% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell-sec-9-content {
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sell-sec-9-content h2 {
+    font-size: 3.6rem;
+}
+
+.sell-sec-9-content button {
+    color: #fff;
+    background-color: transparent;
+    padding: 7px;
+    font-size: 1.1rem;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.sell-sec-9-content button:hover {
+    color: white;
+    box-shadow: 0 0 10px 5px rgba(192, 192, 192, 0.5);
+    border-color: white;
+}
+
+.sell-sec-9-content p {
+    font-size: 1.4rem;
+
+}
+
+.sell-sec-9-img {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid #fff;
+}
+
+.sell-sec-9-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

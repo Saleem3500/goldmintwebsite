@@ -1,0 +1,38 @@
+.sell-sec-10-main{
+    background-color: #1c1c1e;
+    
+}
+.sell-sec-10 {
+    color: #fff;
+    padding: 50px 0;
+    width: 80%;
+    margin:  auto;
+}
+
+.sell-sec-10-title {
+    font-size: 3.4rem;
+    background-image: url(/src/assets/gold-text-bg.png);
+    background-position: right 8px bottom 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.sell-sec-10-subtitle {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.sell-sec-10-text {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.sell-sec-10-heading {
+    margin-top: 30px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}

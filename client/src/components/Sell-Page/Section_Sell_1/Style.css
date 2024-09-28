@@ -1,0 +1,60 @@
+.sell-1-main {
+    background-image: url("../../../assets/sell-gold-bg-shine.webp");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.sell-1-wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 9% 0 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell-sec_1_content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.sell-sec_1_content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sell-sec_1_content p {
+    font-size: 1.2rem;
+    padding: 2% 0;
+}
+
+.sell-sec_1_content button {
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+    background-image: url(/src/assets/gold-text-bg.png);
+    padding: 7px 15px;
+    color: #000;
+    transition: all .3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.sell-sec_1_content button:hover {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.sell-1-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sell-1-img img {
+    height: 380px;
+    width: 100%;
+    object-fit: contain;
+}

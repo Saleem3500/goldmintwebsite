@@ -1,0 +1,27 @@
+.contact-btns {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;  
+    z-index: 1000; 
+}
+
+.whatsapp-btn {
+    background-color: #25D366; 
+    border-radius: 50%;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; 
+}
+
+.whatsapp-wrapper{
+    display: flex;
+    justify-content: end;
+}

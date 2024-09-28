@@ -1,0 +1,60 @@
+.carousel-image {
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  /* Ensures the image covers the entire area without distortion */
+}
+
+.carousel-content {
+  position: absolute;
+  z-index: 3;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  line-height: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  /* border-radius: 20px; */
+  text-align: center;
+}
+
+.carousel-content h1 {
+  font-weight: 600;
+  background-image: url(/src/assets/gold-text-bg.png);
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+
+.carousel-content a {
+  text-decoration: none;
+  font-weight: 600;
+  background-image: url(/src/assets/gold-text-bg.png);
+  background-position: center;
+  padding: 8px;
+  color: #000;
+  transition: all .3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.carousel-content a:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.carousel-title{
+  text-align: center;
+  padding: 1% 0;
+  background-color: #000;
+  position: relative;
+}
+.carousel-title h1{
+  font-size: 7rem;
+  font-weight: 700;
+  background-image: url(/src/assets/gold-text-bg.png);
+  background-position: right 8px bottom 8px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
